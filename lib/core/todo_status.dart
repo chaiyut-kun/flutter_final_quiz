@@ -1,6 +1,5 @@
 enum TodoStatus {
   todo,
-  inProgress,
   done;
 
   /// Converts the status to a string for database storage.

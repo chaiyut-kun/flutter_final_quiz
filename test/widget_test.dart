@@ -24,7 +24,7 @@ void main() {
     expect(find.text('To-Do List'), findsOneWidget);
     // Verify that the tabs are present
     expect(find.text('To-Do'), findsOneWidget);
-    expect(find.text('In-Progress'), findsOneWidget);
     expect(find.text('Done'), findsOneWidget);
+    expect(find.text('In-Progress'), findsNothing);
   });
 }

@@ -6,7 +6,7 @@ This project is making for final quiz in Native Mobile subject
 - [ ] This app must have `CRUD of to-do` function
 - [ ] checkbox for `done task` and strikethrough text after check
 - [ ] Data of app (to-do task, status of task) must still on storage event app is close
-- [ ] Display seperate by status (to-do, in-progress, done)
+- [ ] Display seperate by status (to-do, done)
 
 # Things Agent can do
 - following by # Assignments. as main to do things 

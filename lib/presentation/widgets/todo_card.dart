@@ -69,10 +69,6 @@ class TodoCard extends StatelessWidget {
                   child: Text('Move to To-Do'),
                 ),
                 const PopupMenuItem(
-                  value: TodoStatus.inProgress,
-                  child: Text('Move to In-Progress'),
-                ),
-                const PopupMenuItem(
                   value: TodoStatus.done,
                   child: Text('Move to Done'),
                 ),

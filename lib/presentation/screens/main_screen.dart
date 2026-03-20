@@ -44,14 +44,13 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 2,
       child: Scaffold(
         appBar: AppBar(
           title: const Text('To-Do List'),
           bottom: const TabBar(
             tabs: [
               Tab(icon: Icon(Icons.list), text: 'To-Do'),
-              Tab(icon: Icon(Icons.run_circle_outlined), text: 'In-Progress'),
               Tab(icon: Icon(Icons.check_circle_outline), text: 'Done'),
             ],
           ),
@@ -66,7 +65,6 @@ class _MainScreenState extends State<MainScreen> {
             return TabBarView(
               children: [
                 _buildTodoList(TodoStatus.todo),
-                _buildTodoList(TodoStatus.inProgress),
                 _buildTodoList(TodoStatus.done),
               ],
             );
